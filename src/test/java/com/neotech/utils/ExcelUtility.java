@@ -11,7 +11,6 @@ public class ExcelUtility {
 	public static Object[][] excelIntoArray(String filePath, String sheetName) {
 		try {
 
-			// open a channel to the excel file
 			FileInputStream fis = new FileInputStream(filePath);
 
 			// create a book object for the excel file
